@@ -45,13 +45,31 @@ tran tran stop=2.242222e-05 errpreset=moderate write="spectre.ic" writefinal="sp
 } else if( vps_freq == 100000000 ) {
 IpoissonPulse (0 ipoissonIn) isource type=pwl file="/home/jmiszczynski/LearnPython/AGH_PULSES_POISSON/vpoisson_clean/data/vpoisson_100Mcps_2kHits.data"
 tran tran stop=2.020000e-05 errpreset=moderate write="spectre.ic" writefinal="spectre.fc" annotate=status maxiters=5
+} else if( vps_freq == 120000000 ) {
+IpoissonPulse (0 ipoissonIn) isource type=pwl file="/home/jmiszczynski/LearnPython/AGH_PULSES_POISSON/vpoisson_clean/data/vpoisson_120Mcps_2kHits.data"
+tran tran stop=1.686667e-05 errpreset=moderate write="spectre.ic" writefinal="spectre.fc" annotate=status maxiters=5
+} else if( vps_freq == 130000000 ) {
+IpoissonPulse (0 ipoissonIn) isource type=pwl file="/home/jmiszczynski/LearnPython/AGH_PULSES_POISSON/vpoisson_clean/data/vpoisson_130Mcps_2kHits.data"
+tran tran stop=1.558462e-05 errpreset=moderate write="spectre.ic" writefinal="spectre.fc" annotate=status maxiters=5
+} else if( vps_freq == 140000000 ) {
+IpoissonPulse (0 ipoissonIn) isource type=pwl file="/home/jmiszczynski/LearnPython/AGH_PULSES_POISSON/vpoisson_clean/data/vpoisson_140Mcps_2kHits.data"
+tran tran stop=1.448571e-05 errpreset=moderate write="spectre.ic" writefinal="spectre.fc" annotate=status maxiters=5
+} else if( vps_freq == 150000000 ) {
+IpoissonPulse (0 ipoissonIn) isource type=pwl file="/home/jmiszczynski/LearnPython/AGH_PULSES_POISSON/vpoisson_clean/data/vpoisson_150Mcps_2kHits.data"
+tran tran stop=1.353333e-05 errpreset=moderate write="spectre.ic" writefinal="spectre.fc" annotate=status maxiters=5
+} else if( vps_freq == 160000000 ) {
+IpoissonPulse (0 ipoissonIn) isource type=pwl file="/home/jmiszczynski/LearnPython/AGH_PULSES_POISSON/vpoisson_clean/data/vpoisson_160Mcps_2kHits.data"
+tran tran stop=1.270000e-05 errpreset=moderate write="spectre.ic" writefinal="spectre.fc" annotate=status maxiters=5
+} else if( vps_freq == 170000000 ) {
+IpoissonPulse (0 ipoissonIn) isource type=pwl file="/home/jmiszczynski/LearnPython/AGH_PULSES_POISSON/vpoisson_clean/data/vpoisson_170Mcps_2kHits.data"
+tran tran stop=1.196471e-05 errpreset=moderate write="spectre.ic" writefinal="spectre.fc" annotate=status maxiters=5
+} else if( vps_freq == 180000000 ) {
+IpoissonPulse (0 ipoissonIn) isource type=pwl file="/home/jmiszczynski/LearnPython/AGH_PULSES_POISSON/vpoisson_clean/data/vpoisson_180Mcps_2kHits.data"
+tran tran stop=1.131111e-05 errpreset=moderate write="spectre.ic" writefinal="spectre.fc" annotate=status maxiters=5
+} else if( vps_freq == 190000000 ) {
+IpoissonPulse (0 ipoissonIn) isource type=pwl file="/home/jmiszczynski/LearnPython/AGH_PULSES_POISSON/vpoisson_clean/data/vpoisson_190Mcps_2kHits.data"
+tran tran stop=1.072632e-05 errpreset=moderate write="spectre.ic" writefinal="spectre.fc" annotate=status maxiters=5
 } else if( vps_freq == 200000000 ) {
 IpoissonPulse (0 ipoissonIn) isource type=pwl file="/home/jmiszczynski/LearnPython/AGH_PULSES_POISSON/vpoisson_clean/data/vpoisson_200Mcps_2kHits.data"
 tran tran stop=1.020000e-05 errpreset=moderate write="spectre.ic" writefinal="spectre.fc" annotate=status maxiters=5
-} else if( vps_freq == 300000000 ) {
-IpoissonPulse (0 ipoissonIn) isource type=pwl file="/home/jmiszczynski/LearnPython/AGH_PULSES_POISSON/vpoisson_clean/data/vpoisson_300Mcps_2kHits.data"
-tran tran stop=6.866667e-06 errpreset=moderate write="spectre.ic" writefinal="spectre.fc" annotate=status maxiters=5
-} else if( vps_freq == 400000000 ) {
-IpoissonPulse (0 ipoissonIn) isource type=pwl file="/home/jmiszczynski/LearnPython/AGH_PULSES_POISSON/vpoisson_clean/data/vpoisson_400Mcps_2kHits.data"
-tran tran stop=5.200000e-06 errpreset=moderate write="spectre.ic" writefinal="spectre.fc" annotate=status maxiters=5
 }
